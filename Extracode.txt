@@ -1,0 +1,210 @@
+ <!-- <div class="people_counter">
+        <h1>People Entered:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()" on>INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous Element: <span></span> </p>
+    </div> -->
+
+    <!-- <div class="shoe">
+        <div class="shoe-img">
+            <img src="images/shoe.jpg" alt="No Image">
+        </div>
+        <p>Nice Shoe</p>
+        <button id="purchase" onclick="error()">Purchase - $140</button>
+        <p id="error"></p>
+    </div> -->
+
+    <!-- <div class="calculator">
+        <label for="num1">First Number: </label>
+        <input type="number" id="num1" >
+
+        <label for="num2">Second Number: </label>
+        <input type="number" id="num2"><br><br>
+
+        <button type="button" onclick="add()">Add</button>
+        <button type="button" onclick="subtract()">Subtract</button>
+        <button type="button" onclick="divide()">Divide</button>
+        <button type="button" onclick="multiply()">Multiply</button>
+<br><br>
+        <h3>Result: <span id="result"></span> </h3>
+    </div> -->
+
+
+
+/* .people_counter{
+    height: 500px;
+    width: 500px;
+    background: rgb(252, 189, 189);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgb(59, 163, 59);
+}
+#increment-btn{
+    background: rgb(59, 163, 59);
+}
+#save-btn{
+    background: rgb(59, 163, 59);
+}
+
+#save-el{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoe{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+.shoe img{
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+}
+.shoe img:hover{
+    height: 120%;
+    width: 120%;
+}
+p{
+    font-weight: 600;
+}
+#purchase{
+    background: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    border: 1px solid ;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+#purchase:hover{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#error{
+    color: red;
+}
+.calculator{
+    height: 500px;
+    width: 400px;
+    margin: 50px auto;
+}
+#num1{
+    height: 25px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#num2{
+    height: 25px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 5px;
+} */
+
+
+
+
+////simple counter.......
+
+// document.getElementById("count-el").innerText = 10
+// let saveEl = document.getElementById("save-el")
+// let countEl = document.getElementById("count-el")
+// let count = 0 
+
+// function increment(){  
+//     count += 1
+//     countEl.textContent = count
+   
+// }
+// function save(){
+//  let countStr = count + " - "
+//  saveEl.textContent += countStr
+//  countEl.textContent = 0
+//     count = 0
+// }
+
+/////String printer.........
+
+// let salution = "Created by "
+// let firstName = "Arif"
+// let lastName = " Hossen"
+
+// let fullName =salution + firstName + lastName
+
+// alert(fullName)
+
+//  let myPoints = 3
+
+//  function addPoints(){
+//     myPoints += 3
+//     console.log(myPoints)
+//  }
+
+//  function removePoint(){
+//     myPoints -= 1
+//     console.log(myPoints)
+//  }
+
+// addPoints()
+// addPoints()
+// addPoints()
+// removePoint()
+// removePoint()
+///
+
+//// error rendering......
+// let errorEl = document.getElementById("error")
+// function error(){
+
+//     errorEl.textContent = "Something went wrong,  Please try again."
+
+// }
+
+// function add(){
+//     var num1 = parseInt(document.getElementById("num1").value);
+//     var num2 = parseInt(document.getElementById("num2").value);
+//     var result;
+//     result = num1 + num2;
+//     document.getElementById("result").textContent = "Sum = " + result;
+// }
+// function subtract(){
+//     var num1 = parseInt(document.getElementById("num1").value);
+//     var num2 = parseInt(document.getElementById("num2").value);
+//     var result;
+//     result = num1 - num2;
+//     document.getElementById("result").textContent = result;
+// }
+// function multiply(){
+//     var num1 = parseInt(document.getElementById("num1").value);
+//     var num2 = parseInt(document.getElementById("num2").value);
+//     var result;
+//     result = num1 * num2;
+//     document.getElementById("result").textContent = result;
+// }
+// function divide(){
+//     var num1 = parseInt(document.getElementById("num1").value);
+//     var num2 = parseInt(document.getElementById("num2").value);
+//     var result;
+//     result = num1 / num2;
+//     document.getElementById("result").textContent = result;
+// }
+
