@@ -2,7 +2,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background-image:  ; */
     background-size: cover;
-    background: url("images/blackjack.jpg") no-repeat center;
+    background: url("../images/blackjack.jpg") no-repeat center;
     text-align: center;
     color: rgb(255, 255, 255);
     width: 500px;
